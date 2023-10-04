@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "license": "MIT",
   "author": "Luc Gagan",
-  "displayName": "Playwright Code Snippets",
+  "displayName": "Playwright Test Snippets",
   "description": "A VSCode extension which adds useful code snippets for Playwright",
   "homepage": "https://github.com/lucgagan/vscode-playwright-test-snippets",
   "repository": {
@@ -12,6 +12,7 @@
   },
   "bugs": "https://github.com/lucgagan/vscode-playwright-test-snippets/issues",
   "icon": "images/playwright-logo.png",
+  "publisher": "lucgagan",
   "galleryBanner": {
     "color": "#2b3137",
     "theme": "dark"
@@ -19,6 +20,10 @@
   "categories": [
     "Snippets"
   ],
+  "pricing": "Free",
+  "sponsor": {
+    "url": "https://ray.run/"
+  },
   "keywords": [
     "snippets",
     "playwright",
