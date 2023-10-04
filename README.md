@@ -4,6 +4,8 @@
 
 This Visual Studio Code extension adds predefined useful code snippets for 🎭 [Playwright](https://github.com/microsoft/playwright).
 
+Read tips for [Writing Efficient Playwright Test Scripts](https://ray.run/blog/tips-for-writing-efficient-playwright-test-scripts).
+
 ### Used tools for Playwright Integration Tests
 
 - [playwright](https://playwright.dev/) - Playwright is a Node.js library to automate tests cases for Chromium, Firefox and WebKit with a single API
