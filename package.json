@@ -1,0 +1,63 @@
+{
+  "name": "vscode-playwright-test-snippets",
+  "version": "0.0.3",
+  "license": "MIT",
+  "author": "Luc Gagan",
+  "displayName": "Playwright Code Snippets",
+  "description": "A VSCode extension which adds useful code snippets for Playwright",
+  "homepage": "https://github.com/lucgagan/vscode-playwright-test-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucgagan/vscode-playwright-test-snippets.git"
+  },
+  "bugs": "https://github.com/lucgagan/vscode-playwright-test-snippets/issues",
+  "icon": "images/playwright-logo.png",
+  "galleryBanner": {
+    "color": "#2b3137",
+    "theme": "dark"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "snippets",
+    "playwright",
+    "playwright-test"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "scripts": {
+    "lint": "prettier --check \"**/*.{js,ts,json}\"",
+    "test": "vitest run",
+    "vscode:publish": "vsce publish"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "semantic-release": "^22.0.5",
+    "semantic-release-vsce": "^5.6.3",
+    "vitest": "^0.34.6",
+    "vsce": "^1.78.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Playwright import": {
+    "prefix": "pw-import",
+    "description": "Imports Playwright's test libraries",
+    "body": ["import { test } from '@playwright/test';"]
+  },
+  "Playwright describe block": {
+    "prefix": "pw-describe",
+    "body": ["test.describe('$1', () => {", "\t$0", "});", ""]
+  },
+  "Playwright test block": {
+    "prefix": "pw-test",
+    "body": ["test('$1', async ({ ${2:page} }) => {", "\t$0", "});", ""]
+  },
+  "Playwright test.use block": {
+    "prefix": "pw-use",
+    "body": ["test.use({ $0 });", ""]
+  },
+  "Playwright test.step block": {
+    "prefix": "pw-step",
+    "body": ["await test.step('$1', async () => {", "\t$0", "});", ""]
+  },
+  "Playwright beforeEach block": {
+    "prefix": "pw-beforeEach",
+    "body": ["test.beforeEach(async ({ ${1:page} }) => {", "\t$0", "});", ""]
+  },
+  "Playwright afterEach block": {
+    "prefix": "pw-afterEach",
+    "body": ["test.afterEach(async ({ ${1:page} }) => {", "\t$0", "});", ""]
+  },
+  "Playwright beforeAll block": {
+    "prefix": "pw-beforeAll",
+    "body": ["test.beforeAll(async ({ ${1:browser} }) => {", "\t$0", "});", ""]
+  },
+  "Playwright afterAll block": {
+    "prefix": "pw-afterAll",
+    "body": ["test.afterAll(async ({ ${1:browser} }) => {", "\t$0", "});", ""]
+  }
+}
