@@ -12,7 +12,7 @@
   },
   "bugs": "https://github.com/lucgagan/vscode-playwright-test-snippets/issues",
   "icon": "images/playwright-logo.png",
-  "publisher": "lucgagan",
+  "publisher": "rayrun",
   "galleryBanner": {
     "color": "#2b3137",
     "theme": "dark"

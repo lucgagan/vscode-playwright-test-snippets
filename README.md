@@ -1,4 +1,4 @@
-# Playwright Code Snippets
+# Playwright Test Snippets
 
 ## Getting Started
 
