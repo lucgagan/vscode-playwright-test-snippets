@@ -1,9 +1,9 @@
 {
-  "name": "pw-test-snippets",
+  "name": "rayrun-playwright-test-snippets",
   "version": "0.0.3",
   "license": "MIT",
   "author": "Luc Gagan",
-  "displayName": "Playwright Test Snippets",
+  "displayName": "Rayrun Playwright Test Snippets",
   "description": "A VSCode extension which adds useful code snippets for Playwright",
   "homepage": "https://github.com/lucgagan/vscode-playwright-test-snippets",
   "repository": {

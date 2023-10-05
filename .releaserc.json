@@ -3,13 +3,13 @@
   "verifyConditions": ["semantic-release-vsce", "@semantic-release/github"],
   "prepare": {
     "path": "semantic-release-vsce",
-    "packageVsix": "rayrun.pw-test-snippets.vsix"
+    "packageVsix": "rayrun.rayrun-playwright-test-snippets.vsix"
   },
   "publish": [
     "semantic-release-vsce",
     {
       "path": "@semantic-release/github",
-      "assets": "rayrun.pw-test-snippets.vsix"
+      "assets": "rayrun.rayrun-playwright-test-snippets.vsix"
     }
   ]
 }
